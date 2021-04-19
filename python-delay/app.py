@@ -6,7 +6,7 @@ hostname = os.environ.get('HOSTNAME','localhost')
 
 @app.route('/')
 def hello_world():
-    time.sleep(5)
+    #time.sleep(5)
     return hostname+'v4 - blue deployment \n'
 
 if __name__ == '__main__':
